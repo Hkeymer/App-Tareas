@@ -19,7 +19,7 @@ const VisibilityControl = ({showCoplete,setShowCoplete,clearTask}) => {
              className={styles.lbl_switch}
               ></label>
              </div>
-        <label className={styles.title}  >Show Task Done</label> <button onClick={clearTask}>Clear Task</button>
+        <label className={styles.title}  >Show Task Done</label> <button onClick={clearTask}>Clear Tasks</button>
         </div>
     </div>
   )
