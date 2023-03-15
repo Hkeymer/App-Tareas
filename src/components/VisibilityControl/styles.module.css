@@ -1,0 +1,53 @@
+.conten{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 10px;
+    background-color: #3C84AB;
+}
+
+
+.conten button {
+    background: red;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.lbl_switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+    background: #aaa;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.ipt_switch {
+    display: none;
+}
+
+.ipt_switch:checked~ .lbl_switch{
+     background-color: #C9EEFF;
+}
+
+.lbl_switch::after {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 100px;
+    top: 3px; 
+    left: 5px;
+    transition: .3s;
+}
+
+.ipt_switch:checked~ .lbl_switch::after{
+    left: 22px;
+}

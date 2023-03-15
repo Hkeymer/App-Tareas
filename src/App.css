@@ -1,0 +1,38 @@
+.App {
+   text-align: center;
+}
+
+.App nav{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #111;
+   padding: 15px;
+   margin: 0;
+}
+
+.App nav h1{
+   font-size: 30px;
+}
+.App nav span{
+   color: #62CDFF;
+   font-size: 24px;
+}
+
+.conten {
+   display: flex;
+   flex-direction: column;
+   margin: 20px auto;
+   width: 550px;
+}
+
+
+@media screen and (max-width:550px){
+    .conten {
+      width: 90%;
+    }
+}
+
+
+
+

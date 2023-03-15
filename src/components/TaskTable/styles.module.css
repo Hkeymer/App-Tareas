@@ -1,0 +1,16 @@
+.TaskTable{
+    display: flex;
+    flex-direction: column;
+}
+
+.TaskTable h3 {
+    text-align: start; 
+    padding: 10px 20px;
+    color: #000;
+    background-color: #C9EEFF;
+}
+
+
+.TaskTable li {
+    list-style: none;
+}
